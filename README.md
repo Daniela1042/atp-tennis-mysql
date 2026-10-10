@@ -1,6 +1,6 @@
 # Ranking ATP: limpeza e modelação de dados em MySQL
 
-Projeto de grupo da unidade curricular **Gestão de Big Data** (Mestrado em Business Intelligence, ISCTE – Instituto Universitário de Lisboa), ano letivo 2025/2026.
+Projeto da unidade curricular **Gestão de Big Data** (Mestrado em Business Intelligence, ISCTE – Instituto Universitário de Lisboa), ano letivo 2025/2026.
 
 A partir de um dataset de jogos de ténis profissional, o projeto percorre o processo completo de preparação de dados em SQL: **importação, limpeza e padronização, remoção de duplicados, construção de um modelo relacional e queries analíticas**. Cada decisão de limpeza está documentada no relatório.
 
