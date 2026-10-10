@@ -51,33 +51,6 @@ Foi ainda adicionada informação sobre países (códigos ISO 3166-1) e a sua di
 3. **Top 10 de jogadores canhotos nos Grand Slams.** Rafael Nadal lidera com cerca de 88%.
 4. **Top 5 de jogadores com mais vitórias em piso duro.** Roger Federer lidera com 819 vitórias.
 
-## Como executar
-
-Requer MySQL (no projeto foi usado o XAMPP).
-
-1. Colocar o `atpplayers.csv` na pasta `bin` do MySQL.
-2. Executar `sql/00_importacao.sql` para criar a base de dados e a tabela.
-3. Importar o CSV na linha de comandos (comando no final de `00_importacao.sql`).
-4. Executar por ordem:
-   - `sql/01_limpeza_e_padronizacao.sql`
-   - `sql/02_modelo_relacional.sql`
-   - `sql/03_queries_analiticas.sql`
-
-## Estrutura do repositório
-
-```
-├── README.md
-├── sql/
-│   ├── 00_importacao.sql
-│   ├── 01_limpeza_e_padronizacao.sql
-│   ├── 02_modelo_relacional.sql
-│   └── 03_queries_analiticas.sql
-├── docs/
-│   └── Relatorio_Ranking_ATP.pdf
-└── images/
-    └── modelo_relacional.png
-```
-
 ## Ferramentas
 
 MySQL · phpMyAdmin · XAMPP
