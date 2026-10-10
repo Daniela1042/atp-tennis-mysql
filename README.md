@@ -42,8 +42,6 @@ Foi ainda adicionada informação sobre países (códigos ISO 3166-1) e a sua di
 | `player` | Jogadores, altura, mão dominante, estilo de backhand, cidade e país de nascimento |
 | `match_` | Jogos: resultado, fase, adversário, vitória/derrota e ranking do adversário |
 
-![Modelo relacional](images/modelo_relacional.png)
-
 ## Queries analíticas
 
 1. **Jogadores, torneios e jogos por país.** A Austrália lidera em torneios e jogos, e a Argentina em jogadores.
